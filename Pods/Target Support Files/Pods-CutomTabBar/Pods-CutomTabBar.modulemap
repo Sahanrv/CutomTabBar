@@ -1,0 +1,6 @@
+framework module Pods_CutomTabBar {
+  umbrella header "Pods-CutomTabBar-umbrella.h"
+
+  export *
+  module * { export * }
+}

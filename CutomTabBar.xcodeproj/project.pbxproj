@@ -1,0 +1,795 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A6F43C85F9001BB04EB7021 /* Pods_CutomTabBarTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD4C2A9D8E11845740401477 /* Pods_CutomTabBarTests.framework */; };
+		4A723605D2823B35698D6BFF /* Pods_CutomTabBar_CutomTabBarUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 804B6794CF24ABDB6CFD2DFE /* Pods_CutomTabBar_CutomTabBarUITests.framework */; };
+		A781852D169ECEF2765884C1 /* Pods_CutomTabBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 580E8FF3B5460C1EC075CC1C /* Pods_CutomTabBar.framework */; };
+		FB121F66246C177B00AD908E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB121F65246C177B00AD908E /* AppDelegate.swift */; };
+		FB121F68246C177B00AD908E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB121F67246C177B00AD908E /* SceneDelegate.swift */; };
+		FB121F6A246C177B00AD908E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB121F69246C177B00AD908E /* ViewController.swift */; };
+		FB121F6D246C177B00AD908E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB121F6B246C177B00AD908E /* Main.storyboard */; };
+		FB121F6F246C177C00AD908E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB121F6E246C177C00AD908E /* Assets.xcassets */; };
+		FB121F72246C177C00AD908E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB121F70246C177C00AD908E /* LaunchScreen.storyboard */; };
+		FB121F7D246C177C00AD908E /* CutomTabBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB121F7C246C177C00AD908E /* CutomTabBarTests.swift */; };
+		FB121F88246C177D00AD908E /* CutomTabBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB121F87246C177D00AD908E /* CutomTabBarUITests.swift */; };
+		FB121F96246C17D400AD908E /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB121F95246C17D400AD908E /* ViewController1.swift */; };
+		FB121F98246C17E200AD908E /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB121F97246C17E200AD908E /* ViewController2.swift */; };
+		FB121F9A246C17EA00AD908E /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB121F99246C17EA00AD908E /* ViewController3.swift */; };
+		FB121F9C246C17F300AD908E /* ViewController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB121F9B246C17F300AD908E /* ViewController4.swift */; };
+		FB121FA0246C187500AD908E /* MyTabBarCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB121F9F246C187500AD908E /* MyTabBarCtrl.swift */; };
+		FB121FA2246C18BE00AD908E /* MyTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB121FA1246C18BE00AD908E /* MyTabBar.swift */; };
+		FB121FA4246C1F7F00AD908E /* AddButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB121FA3246C1F7F00AD908E /* AddButtonViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB121F79246C177C00AD908E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB121F5A246C177B00AD908E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB121F61246C177B00AD908E;
+			remoteInfo = CutomTabBar;
+		};
+		FB121F84246C177D00AD908E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB121F5A246C177B00AD908E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB121F61246C177B00AD908E;
+			remoteInfo = CutomTabBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		354EC4E106C7470B56B3357A /* Pods-CutomTabBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CutomTabBar.release.xcconfig"; path = "Target Support Files/Pods-CutomTabBar/Pods-CutomTabBar.release.xcconfig"; sourceTree = "<group>"; };
+		42D1F212ABE2B1E18A01A515 /* Pods-CutomTabBar-CutomTabBarUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CutomTabBar-CutomTabBarUITests.release.xcconfig"; path = "Target Support Files/Pods-CutomTabBar-CutomTabBarUITests/Pods-CutomTabBar-CutomTabBarUITests.release.xcconfig"; sourceTree = "<group>"; };
+		580E8FF3B5460C1EC075CC1C /* Pods_CutomTabBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CutomTabBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BAB1132FBF7754190D738AD /* Pods-CutomTabBarTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CutomTabBarTests.release.xcconfig"; path = "Target Support Files/Pods-CutomTabBarTests/Pods-CutomTabBarTests.release.xcconfig"; sourceTree = "<group>"; };
+		73DB48D85BC0FC5064E00F6C /* Pods-CutomTabBar-CutomTabBarUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CutomTabBar-CutomTabBarUITests.debug.xcconfig"; path = "Target Support Files/Pods-CutomTabBar-CutomTabBarUITests/Pods-CutomTabBar-CutomTabBarUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		804B6794CF24ABDB6CFD2DFE /* Pods_CutomTabBar_CutomTabBarUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CutomTabBar_CutomTabBarUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8731ABB84475C90BC9705C92 /* Pods-CutomTabBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CutomTabBar.debug.xcconfig"; path = "Target Support Files/Pods-CutomTabBar/Pods-CutomTabBar.debug.xcconfig"; sourceTree = "<group>"; };
+		A6BCD77DB4C7C82AD656AD84 /* Pods-CutomTabBarTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CutomTabBarTests.debug.xcconfig"; path = "Target Support Files/Pods-CutomTabBarTests/Pods-CutomTabBarTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FB121F62246C177B00AD908E /* CutomTabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CutomTabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB121F65246C177B00AD908E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FB121F67246C177B00AD908E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FB121F69246C177B00AD908E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FB121F6C246C177B00AD908E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB121F6E246C177C00AD908E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB121F71246C177C00AD908E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB121F73246C177C00AD908E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB121F78246C177C00AD908E /* CutomTabBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CutomTabBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB121F7C246C177C00AD908E /* CutomTabBarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CutomTabBarTests.swift; sourceTree = "<group>"; };
+		FB121F7E246C177C00AD908E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB121F83246C177D00AD908E /* CutomTabBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CutomTabBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB121F87246C177D00AD908E /* CutomTabBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CutomTabBarUITests.swift; sourceTree = "<group>"; };
+		FB121F89246C177D00AD908E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB121F95246C17D400AD908E /* ViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
+		FB121F97246C17E200AD908E /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		FB121F99246C17EA00AD908E /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+		FB121F9B246C17F300AD908E /* ViewController4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController4.swift; sourceTree = "<group>"; };
+		FB121F9F246C187500AD908E /* MyTabBarCtrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabBarCtrl.swift; sourceTree = "<group>"; };
+		FB121FA1246C18BE00AD908E /* MyTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabBar.swift; sourceTree = "<group>"; };
+		FB121FA3246C1F7F00AD908E /* AddButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddButtonViewController.swift; sourceTree = "<group>"; };
+		FD4C2A9D8E11845740401477 /* Pods_CutomTabBarTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CutomTabBarTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB121F5F246C177B00AD908E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A781852D169ECEF2765884C1 /* Pods_CutomTabBar.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB121F75246C177C00AD908E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A6F43C85F9001BB04EB7021 /* Pods_CutomTabBarTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB121F80246C177D00AD908E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A723605D2823B35698D6BFF /* Pods_CutomTabBar_CutomTabBarUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D211227F91A8DFED56C4FEF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8731ABB84475C90BC9705C92 /* Pods-CutomTabBar.debug.xcconfig */,
+				354EC4E106C7470B56B3357A /* Pods-CutomTabBar.release.xcconfig */,
+				73DB48D85BC0FC5064E00F6C /* Pods-CutomTabBar-CutomTabBarUITests.debug.xcconfig */,
+				42D1F212ABE2B1E18A01A515 /* Pods-CutomTabBar-CutomTabBarUITests.release.xcconfig */,
+				A6BCD77DB4C7C82AD656AD84 /* Pods-CutomTabBarTests.debug.xcconfig */,
+				6BAB1132FBF7754190D738AD /* Pods-CutomTabBarTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5E7C7DEA6DC1876E01BBBD11 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				580E8FF3B5460C1EC075CC1C /* Pods_CutomTabBar.framework */,
+				804B6794CF24ABDB6CFD2DFE /* Pods_CutomTabBar_CutomTabBarUITests.framework */,
+				FD4C2A9D8E11845740401477 /* Pods_CutomTabBarTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB121F59246C177B00AD908E = {
+			isa = PBXGroup;
+			children = (
+				FB121F64246C177B00AD908E /* CutomTabBar */,
+				FB121F7B246C177C00AD908E /* CutomTabBarTests */,
+				FB121F86246C177D00AD908E /* CutomTabBarUITests */,
+				FB121F63246C177B00AD908E /* Products */,
+				4D211227F91A8DFED56C4FEF /* Pods */,
+				5E7C7DEA6DC1876E01BBBD11 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FB121F63246C177B00AD908E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB121F62246C177B00AD908E /* CutomTabBar.app */,
+				FB121F78246C177C00AD908E /* CutomTabBarTests.xctest */,
+				FB121F83246C177D00AD908E /* CutomTabBarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB121F64246C177B00AD908E /* CutomTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				FB121F9E246C184700AD908E /* TBVC */,
+				FB121F9D246C183200AD908E /* VC */,
+				FB121F65246C177B00AD908E /* AppDelegate.swift */,
+				FB121F67246C177B00AD908E /* SceneDelegate.swift */,
+				FB121F6B246C177B00AD908E /* Main.storyboard */,
+				FB121F6E246C177C00AD908E /* Assets.xcassets */,
+				FB121F70246C177C00AD908E /* LaunchScreen.storyboard */,
+				FB121F73246C177C00AD908E /* Info.plist */,
+			);
+			path = CutomTabBar;
+			sourceTree = "<group>";
+		};
+		FB121F7B246C177C00AD908E /* CutomTabBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB121F7C246C177C00AD908E /* CutomTabBarTests.swift */,
+				FB121F7E246C177C00AD908E /* Info.plist */,
+			);
+			path = CutomTabBarTests;
+			sourceTree = "<group>";
+		};
+		FB121F86246C177D00AD908E /* CutomTabBarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FB121F87246C177D00AD908E /* CutomTabBarUITests.swift */,
+				FB121F89246C177D00AD908E /* Info.plist */,
+			);
+			path = CutomTabBarUITests;
+			sourceTree = "<group>";
+		};
+		FB121F9D246C183200AD908E /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				FB121F69246C177B00AD908E /* ViewController.swift */,
+				FB121F95246C17D400AD908E /* ViewController1.swift */,
+				FB121F97246C17E200AD908E /* ViewController2.swift */,
+				FB121F99246C17EA00AD908E /* ViewController3.swift */,
+				FB121F9B246C17F300AD908E /* ViewController4.swift */,
+				FB121FA3246C1F7F00AD908E /* AddButtonViewController.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		FB121F9E246C184700AD908E /* TBVC */ = {
+			isa = PBXGroup;
+			children = (
+				FB121F9F246C187500AD908E /* MyTabBarCtrl.swift */,
+				FB121FA1246C18BE00AD908E /* MyTabBar.swift */,
+			);
+			path = TBVC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB121F61246C177B00AD908E /* CutomTabBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB121F8C246C177D00AD908E /* Build configuration list for PBXNativeTarget "CutomTabBar" */;
+			buildPhases = (
+				E1143D7E9FCB58EFC0A0FDBB /* [CP] Check Pods Manifest.lock */,
+				FB121F5E246C177B00AD908E /* Sources */,
+				FB121F5F246C177B00AD908E /* Frameworks */,
+				FB121F60246C177B00AD908E /* Resources */,
+				E68F41B14B8045466024C6AE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CutomTabBar;
+			productName = CutomTabBar;
+			productReference = FB121F62246C177B00AD908E /* CutomTabBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB121F77246C177C00AD908E /* CutomTabBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB121F8F246C177D00AD908E /* Build configuration list for PBXNativeTarget "CutomTabBarTests" */;
+			buildPhases = (
+				ACD3DDD05C24EE8C3F15F810 /* [CP] Check Pods Manifest.lock */,
+				FB121F74246C177C00AD908E /* Sources */,
+				FB121F75246C177C00AD908E /* Frameworks */,
+				FB121F76246C177C00AD908E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB121F7A246C177C00AD908E /* PBXTargetDependency */,
+			);
+			name = CutomTabBarTests;
+			productName = CutomTabBarTests;
+			productReference = FB121F78246C177C00AD908E /* CutomTabBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FB121F82246C177D00AD908E /* CutomTabBarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB121F92246C177D00AD908E /* Build configuration list for PBXNativeTarget "CutomTabBarUITests" */;
+			buildPhases = (
+				907653139371BFE2FD0DD96E /* [CP] Check Pods Manifest.lock */,
+				FB121F7F246C177D00AD908E /* Sources */,
+				FB121F80246C177D00AD908E /* Frameworks */,
+				FB121F81246C177D00AD908E /* Resources */,
+				F08F1F7BE85A6A5ED02F5F3E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB121F85246C177D00AD908E /* PBXTargetDependency */,
+			);
+			name = CutomTabBarUITests;
+			productName = CutomTabBarUITests;
+			productReference = FB121F83246C177D00AD908E /* CutomTabBarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB121F5A246C177B00AD908E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Sahan Ravindu";
+				TargetAttributes = {
+					FB121F61246C177B00AD908E = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					FB121F77246C177C00AD908E = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = FB121F61246C177B00AD908E;
+					};
+					FB121F82246C177D00AD908E = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = FB121F61246C177B00AD908E;
+					};
+				};
+			};
+			buildConfigurationList = FB121F5D246C177B00AD908E /* Build configuration list for PBXProject "CutomTabBar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB121F59246C177B00AD908E;
+			productRefGroup = FB121F63246C177B00AD908E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB121F61246C177B00AD908E /* CutomTabBar */,
+				FB121F77246C177C00AD908E /* CutomTabBarTests */,
+				FB121F82246C177D00AD908E /* CutomTabBarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB121F60246C177B00AD908E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB121F72246C177C00AD908E /* LaunchScreen.storyboard in Resources */,
+				FB121F6F246C177C00AD908E /* Assets.xcassets in Resources */,
+				FB121F6D246C177B00AD908E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB121F76246C177C00AD908E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB121F81246C177D00AD908E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		907653139371BFE2FD0DD96E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CutomTabBar-CutomTabBarUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACD3DDD05C24EE8C3F15F810 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CutomTabBarTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1143D7E9FCB58EFC0A0FDBB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CutomTabBar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E68F41B14B8045466024C6AE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CutomTabBar/Pods-CutomTabBar-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CutomTabBar/Pods-CutomTabBar-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CutomTabBar/Pods-CutomTabBar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F08F1F7BE85A6A5ED02F5F3E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CutomTabBar-CutomTabBarUITests/Pods-CutomTabBar-CutomTabBarUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CutomTabBar-CutomTabBarUITests/Pods-CutomTabBar-CutomTabBarUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CutomTabBar-CutomTabBarUITests/Pods-CutomTabBar-CutomTabBarUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB121F5E246C177B00AD908E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB121F98246C17E200AD908E /* ViewController2.swift in Sources */,
+				FB121F9C246C17F300AD908E /* ViewController4.swift in Sources */,
+				FB121F96246C17D400AD908E /* ViewController1.swift in Sources */,
+				FB121F9A246C17EA00AD908E /* ViewController3.swift in Sources */,
+				FB121FA0246C187500AD908E /* MyTabBarCtrl.swift in Sources */,
+				FB121FA2246C18BE00AD908E /* MyTabBar.swift in Sources */,
+				FB121F6A246C177B00AD908E /* ViewController.swift in Sources */,
+				FB121F66246C177B00AD908E /* AppDelegate.swift in Sources */,
+				FB121FA4246C1F7F00AD908E /* AddButtonViewController.swift in Sources */,
+				FB121F68246C177B00AD908E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB121F74246C177C00AD908E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB121F7D246C177C00AD908E /* CutomTabBarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB121F7F246C177D00AD908E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB121F88246C177D00AD908E /* CutomTabBarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB121F7A246C177C00AD908E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB121F61246C177B00AD908E /* CutomTabBar */;
+			targetProxy = FB121F79246C177C00AD908E /* PBXContainerItemProxy */;
+		};
+		FB121F85246C177D00AD908E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB121F61246C177B00AD908E /* CutomTabBar */;
+			targetProxy = FB121F84246C177D00AD908E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB121F6B246C177B00AD908E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB121F6C246C177B00AD908E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB121F70246C177C00AD908E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB121F71246C177C00AD908E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB121F8A246C177D00AD908E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FB121F8B246C177D00AD908E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB121F8D246C177D00AD908E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8731ABB84475C90BC9705C92 /* Pods-CutomTabBar.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K9LL3T2Z2B;
+				INFOPLIST_FILE = CutomTabBar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.emedia.CutomTabBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB121F8E246C177D00AD908E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 354EC4E106C7470B56B3357A /* Pods-CutomTabBar.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K9LL3T2Z2B;
+				INFOPLIST_FILE = CutomTabBar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.emedia.CutomTabBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FB121F90246C177D00AD908E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6BCD77DB4C7C82AD656AD84 /* Pods-CutomTabBarTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K9LL3T2Z2B;
+				INFOPLIST_FILE = CutomTabBarTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.emedia.CutomTabBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CutomTabBar.app/CutomTabBar";
+			};
+			name = Debug;
+		};
+		FB121F91246C177D00AD908E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BAB1132FBF7754190D738AD /* Pods-CutomTabBarTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K9LL3T2Z2B;
+				INFOPLIST_FILE = CutomTabBarTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.emedia.CutomTabBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CutomTabBar.app/CutomTabBar";
+			};
+			name = Release;
+		};
+		FB121F93246C177D00AD908E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73DB48D85BC0FC5064E00F6C /* Pods-CutomTabBar-CutomTabBarUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K9LL3T2Z2B;
+				INFOPLIST_FILE = CutomTabBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.emedia.CutomTabBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CutomTabBar;
+			};
+			name = Debug;
+		};
+		FB121F94246C177D00AD908E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42D1F212ABE2B1E18A01A515 /* Pods-CutomTabBar-CutomTabBarUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K9LL3T2Z2B;
+				INFOPLIST_FILE = CutomTabBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.emedia.CutomTabBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CutomTabBar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB121F5D246C177B00AD908E /* Build configuration list for PBXProject "CutomTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB121F8A246C177D00AD908E /* Debug */,
+				FB121F8B246C177D00AD908E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB121F8C246C177D00AD908E /* Build configuration list for PBXNativeTarget "CutomTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB121F8D246C177D00AD908E /* Debug */,
+				FB121F8E246C177D00AD908E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB121F8F246C177D00AD908E /* Build configuration list for PBXNativeTarget "CutomTabBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB121F90246C177D00AD908E /* Debug */,
+				FB121F91246C177D00AD908E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB121F92246C177D00AD908E /* Build configuration list for PBXNativeTarget "CutomTabBarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB121F93246C177D00AD908E /* Debug */,
+				FB121F94246C177D00AD908E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB121F5A246C177B00AD908E /* Project object */;
+}
